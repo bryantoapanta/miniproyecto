@@ -1,0 +1,416 @@
+body {
+    background-color: hsl(204, 52%, 52%);
+    text-align: center;
+    color: black;
+}
+
+#general {
+    margin: auto;
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    ;
+    /*    border: 1px black solid;*/
+
+}
+
+#cabecera {
+    margin: auto;
+    /*    border: 1px black solid;*/
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'Mansalva', cursive;
+    color: aliceblue;
+    text-decoration:underline;
+
+}
+
+/*Stios*/
+#sitios {
+    width: 100%;
+    height: 150px;
+    ;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+    float: left;
+    border-radius: 20px;
+}
+
+a {
+    color: black;
+}
+
+#sitios div {
+    margin-top: 3%;
+    font-size: 25px;
+    width: 20%;
+    height: auto;
+    float: left;
+    font-family: 'Mansalva', cursive;
+}
+
+/*Descripcion*/
+/*FOTO*/
+#texto {
+    margin: auto;
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.caja {
+    margin: auto;
+    width: 80%;
+    height: auto;
+
+}
+
+#foto {
+
+    width: 20%;
+    height: 500px;
+    float: left;
+    border: 2px white solid;
+    border-radius: 0px 20px 20px 0px;
+    overflow: hidden;
+    /*    background: red;*/
+
+
+
+}
+
+#foto img {
+
+    height: 500px;
+
+}
+
+/*TEXTO*/
+#intro {
+    width: 70%;
+    height: 500px;
+    float: left;
+    border: 2px white solid;
+    border-radius: 20px 0px 0px 20px;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+    overflow: auto;
+
+}
+
+#introduccion {
+    padding-left: 5%;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 6%;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+#img {
+    width: 200px;
+    margin-top: 40px;
+}
+
+/*COLEGIOS*/
+#blanca {
+    margin: auto;
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#fortuny {
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    clear: both;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#tetuan {
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    clear: both;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+/*FOTOS*/
+
+#blanca img {
+
+    width: 250px;
+    float: right
+}
+
+#blanca p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+#fortuny img {
+    width: 150px;
+    float: right;
+}
+
+#fortuny p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+
+#tetuan img {
+    width: 250px;
+
+    float: right;
+}
+
+#tetuan p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+/*Aficiones*/
+
+#futbol {
+    margin: auto;
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#izq {
+    width: 49%;
+    float: left;
+
+
+}
+
+#der {
+    width: 49%;
+    float: right;
+    overflow: hidden;
+}
+
+#peli {
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    clear: both;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#videojuegos {
+    margin-left: 20%;
+    float: left;
+    text-align: left;
+    width: 60%;
+    clear: both;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+/*FOTOS*/
+
+#futbol img {
+
+    width: 350px;
+    height: 230px;
+    float: right;
+}
+
+#futbol p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+#peli img {
+    width: 350px;
+    height: auto;
+    float: right;
+}
+
+#peli p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+
+#videojuegos img {
+    width: 350px;
+
+    float: right;
+}
+
+#videojuegos p {
+    float: left;
+    padding-left: 7%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
+
+/*formulario*/
+#formulario {
+    padding: 50px;
+    float: left;
+    width: 100%;
+    margin: auto;
+}
+
+#formulario div {
+    margin: auto;
+    padding: 20px;
+    width: 35%;
+    height: auto;
+    border: 2px white solid;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Pacifico', cursive;
+
+    border-radius: 20px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#botones {
+    text-align: center;
+}
+
+#comentario {
+    text-align: center;
+}
+
+/*redes*/
+
+#redes {
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+
+#redes div {
+    width: 33%;
+    margin: auto;
+    float: left;
+}
+
+#redes img {
+    width: 95px;
+}
+
+/*PROYECTOS*/
+span {
+    text-decoration: underline;
+}
+
+#videojuegosejer {
+    margin-left: 15%;
+    margin-top: 10px;
+    float: left;
+    text-align: left;
+    width: 70%;
+    clear: both;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 2px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    background: hsl(204, 52%, 93%);
+    opacity: 0.9;
+}
+
+#videojuegosejer img {
+    padding-top: 5px;
+    width: 400px;
+    height: 200px;
+    float: right;
+
+
+
+}
+
+#videojuegosejer p {
+    float: left;
+    padding-left: 3%;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+
+}
